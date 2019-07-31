@@ -1,0 +1,25 @@
+language: python
+
+matrix:
+  include:
+    - sudo: required
+      dist: xenial
+      services: docker
+      env: PIP=pip
+    - os: osx
+      language: generic
+      env: PIP=pip2
+
+env:
+  global:
+    - CIBW_SKIP=*-manylinux1_i686
+
+script:
+  - make test
+  - |
+    if [[ $TRAVIS_TAG ]]; then
+      $PIP install cibuildwheel==0.10.2
+      cibuildwheel --output-dir wheelhouse
+      python -m pip install twine
+      python -m twine upload wheelhouse/*.whl
+    fi
