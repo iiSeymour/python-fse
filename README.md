@@ -1,14 +1,16 @@
 # pyfse
 
-Python binding to [https://github.com/Cyan4973/FiniteStateEntropy](FiniteStateEntropy).
+Python binding to [FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy).
 
 ## Installing
 
+```
 $ pip install --user pyfse
+```
 
 ## Example
 
-```
+```python
 >>> import numpy as np
 >>> from fse import fse_encode, fse_decode, huf_encode, huf_decode
 >>>
