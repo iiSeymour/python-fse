@@ -12,7 +12,7 @@ matrix:
 
 env:
   global:
-    - CIBW_SKIP=*-manylinux1_i686,cp36-manylinux*
+    - CIBW_SKIP="*-manylinux1_i686 cp36-manylinux*"
 
 script:
   - make test
