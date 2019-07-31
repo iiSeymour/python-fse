@@ -1,4 +1,4 @@
-# pyfse
+# python-fse
 
 [![Build Status](https://travis-ci.org/iiSeymour/pyfse.svg?branch=master)](https://travis-ci.org/iiSeymour/pyfse)
 
@@ -31,7 +31,7 @@ $ pip install --user python-fse
 ## Development Quick Start
 
 ```
-$ git clone --recurse-submodules https://github.com/iiSeymour/pyfse.git
+$ git clone --recurse-submodules https://github.com/iiSeymour/python-fse.git
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ make test
