@@ -1,5 +1,7 @@
 # pyfse
 
+[![Build Status](https://travis-ci.org/iiSeymour/pyfse.svg?branch=master)](https://travis-ci.org/iiSeymour/pyfse)
+
 Python binding to [FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy).
 
 ## Installing
