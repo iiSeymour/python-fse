@@ -5,7 +5,7 @@ Python binding to [FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEn
 ## Installing
 
 ```
-$ pip install --user pyfse
+$ pip install --user python-fse
 ```
 
 ## Example

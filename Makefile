@@ -1,6 +1,6 @@
 clean:
 	python setup.py clean
-	rm -rf _fse.* *~ pyfse.egg-info build
+	rm -rf _fse.* *~ pyfse.egg-info build dist
 
 build:
 	python setup.py develop
